@@ -30,5 +30,27 @@ input{
   width: 50%;
   margin: auto;
   line-height: 20px;
-  border-radius: 20%;
+  border: 1px solid blue;
+  border-top-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.row{
+  width: 40%;
+  margin: auto;
+  border: 1px solid red;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  
 }
