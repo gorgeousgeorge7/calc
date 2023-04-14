@@ -19,7 +19,7 @@
     <button onclick="clearResult()">C</button>
     <button onclick="getResult('/')">/</button>
     <button onclick="getResult('%')">%</button>
-    <button onclick="clear()">D</button>
+    <button onclick="deleteLastItem()">Del</button>
       </div>
    
            <div class="row">
@@ -75,11 +75,9 @@ function clearResult() {
   expression = '';
 }
       
-function clear(){
-
-  result.value =  result.value.slice(0, -1);
-  
-
+function deleteLastItem() {
+  expression = expression.slice(0, -1);
+  result.value = expression;
 }
       </script>
 
