@@ -21,7 +21,7 @@ body{
   padding-bottom: 20px;
   border-radius: 5%;
   border: 3px solid white;
-  box-shadow: 5px 5px 5px 5px #241571;  
+  box-shadow: 5px 5px  20px 5px #241571;  
   background-color: black;
   
 }
@@ -30,7 +30,7 @@ h1{
   text-align: center;
   font-family: sans-serif;
   padding-top: 0px;
-  text-shadow: 1px 1px 0.2px white;
+  text-shadow: 1px 1px 10px  #000090;
   
 }
 
@@ -39,16 +39,18 @@ h1{
   justify-content: center;
   align-items: center;
   
-  /* Set the height of the container to fill the viewport */
 }
 
 input{
   width: 50%;
+  max-width: 200px;
   margin: auto;
-  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 25px;
   border: 1px solid blue;
-  border-top-left-radius: 5%;
-  border-bottom-right-radius: 5%;
+  box-shadow: 1px 1px 10px white;
+  border-radius: 20px;
   text-align: center;
   background-color: black;
   color: white;
@@ -58,7 +60,7 @@ input{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid black;
+  
 }
 
 .row{
