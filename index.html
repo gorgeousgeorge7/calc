@@ -18,6 +18,8 @@
         <div class="row">
     <button onclick="clearResult()">C</button>
     <button onclick="getResult('/')">/</button>
+    <button onclick="getResult('%')">%</button>
+    <button onclick="clear()">D</button>
       </div>
    
            <div class="row">
@@ -46,7 +48,7 @@
     </div>
         <div class="row">
           
-
+ <button onclick="getResult('00')">00</button>
     <button onclick="getResult('0')">0</button>
     <button onclick="getResult('.')">.</button>
     <button onclick="calculateResult()">=</button>
@@ -71,6 +73,13 @@ function calculateResult() {
 function clearResult() {
   result.value = '';
   expression = '';
+}
+      
+function clear(){
+  /*
+  result.value =  result.value.slice(0, -1);
+  expression = result.value;
+  
 }
       </script>
 
